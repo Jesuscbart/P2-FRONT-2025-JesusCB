@@ -1,0 +1,185 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  color: rgb(51, 51, 51);
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+/* Página principal - Buscador */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('/star-wars-wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.search-wrapper {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: rgb(10, 61, 98);
+  margin-bottom: 20px;
+  font-size: 25.6px;
+}
+
+/* Buscador */
+.search-container {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  border-color: rgb(10, 61, 98);
+  outline: none;
+}
+
+.search-button {
+  background-color: rgb(10, 61, 98);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+}
+
+.search-button:hover {
+  background-color: rgb(30, 55, 153);
+}
+
+/* Página de personaje */
+.character-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.character-name {
+  color: rgb(10, 61, 98);
+  text-align: center;
+  font-size: 28.8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 10px;
+}
+
+.info-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 6px;
+}
+
+.section-title {
+  color: rgb(10, 61, 98);
+  font-size: 19.2px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 5px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.label {
+  font-weight: bold;
+  color: rgb(85, 85, 85);
+  font-size: 13px;
+}
+
+.value {
+  color: rgb(10, 61, 98);
+  font-size: 13px;
+}
+
+.resource-list {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.resource-list li {
+  margin-bottom: 5px;
+}
+
+.resource-link {
+  color: rgb(10, 61, 98);
+  font-size: 13px;
+}
+
+.back-button {
+  display: block;
+  width: 150px;
+  margin: 20px auto 0;
+  padding: 8px 15px;
+  background-color: rgb(10, 61, 98);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.back-button:hover {
+  background-color: rgb(30, 55, 153);
+}
+
+/* Contenedor de errores */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(249, 249, 249);
+}
+
+.error-message {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
